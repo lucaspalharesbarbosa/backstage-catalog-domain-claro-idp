@@ -1,0 +1,68 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-location
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: github-catalog-domain-claro-idp
+  description: >-
+    Entidades do catálogo do domínio claro-idp hospedadas em
+    lucaspalharesbarbosa/backstage-catalog-domain-claro-idp (branch main).
+spec:
+  type: url
+  targets:
+    # apis
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/apis/admin-panel-auth-api.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/apis/backstage-catalog-backend.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/apis/gitlab-rest-api-v4.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/apis/grafana-http-api-embedded.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/apis/sonarqube-web-api.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/apis/template-service-rest-v1.yaml
+    # components
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/admin-panel-web.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/backstage-catalog-registrar.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/backstage-deploy-pipeline.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/backstage-plugin-gerador-scaffolding.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/catalog-info-templates-repo.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/cicd-github-adapter.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/cicd-gitlab-adapter.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/container-image-scan-config.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/contract-tests-gerador-scaffolding.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/cross-repo-update-automation.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/devcontainer-gerador-scaffolding.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/e2e-tests-gerador-scaffolding.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/git-publish-worker.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/irsa-secrets-config.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/k8s-helm-charts-gerador.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/metadata-worker.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/mock-integrations-local-dev.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/nexus-publish-pipeline-plugin.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/openapi-template-service.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/performance-tests-template-service.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/sbom-pipeline-gerador.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/sonarqube-integration-bridge.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/super-rag-client.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/template-service.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/terraform-datastores-gerador.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/terraform-eks-gerador.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/validation-worker.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/components/zeebe-client-integration.yaml
+    # domains
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/domains/claro-idp.yaml
+    # resources
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/resources/aws-managed-prometheus-gerador.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/resources/aws-secrets-manager-gerador.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/resources/aws-xray-tracing-gerador.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/resources/cloudfront-distribution-admin-panel.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/resources/cloudwatch-log-groups-gerador.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/resources/ecr-gerador-scaffolding.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/resources/eks-cluster-gerador-scaffolding.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/resources/elasticache-redis-gerador.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/resources/managed-grafana-workspace-gerador.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/resources/rds-postgresql-gerador.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/resources/s3-bucket-admin-panel.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/resources/s3-bucket-artefatos-logs.yaml
+    # systems
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/systems/aws-runtime-gerador-scaffolding.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/systems/backstage-digital-aws.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/systems/backstage-ti-onprem.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/systems/gerador-scaffolding.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-idp/blob/main/systems/gitlab-onprem-corporativo.yaml
