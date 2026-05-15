@@ -1,0 +1,14 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-location
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: backstage-catalog-domain-claro-idp
+  description: Catálogo do domínio Claro IDP — entidades em apis, components, domains, resources e systems
+spec:
+  type: url
+  targets:
+    - ./apis
+    - ./components
+    - ./domains
+    - ./resources
+    - ./systems
