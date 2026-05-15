@@ -5,7 +5,7 @@ metadata:
   name: backstage-catalog-domain-claro-idp
   description: Catálogo do domínio Claro IDP — entidades em apis, components, domains, resources e systems
 spec:
-  type: url
+  type: file
   targets:
     - ./apis/*.yaml
     - ./components/*.yaml
