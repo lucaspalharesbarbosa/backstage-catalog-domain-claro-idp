@@ -7,8 +7,8 @@ metadata:
 spec:
   type: url
   targets:
-    - ./apis
-    - ./components
-    - ./domains
-    - ./resources
-    - ./systems
+    - ./apis/*.yaml
+    - ./components/*.yaml
+    - ./domains/*.yaml
+    - ./resources/*.yaml
+    - ./systems/*.yaml
